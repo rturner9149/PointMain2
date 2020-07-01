@@ -8,7 +8,7 @@ public class PointMain {
         System.out.println("Enter 2 more points:");
         Point p2 = new Point(input.nextInt(),input.nextInt());
         p1.translate(p2.x,p2.y);
-        System.out.println(p1.toString());
+        System.out.println("Here it is " +p1.toString());
 
     }
 }
